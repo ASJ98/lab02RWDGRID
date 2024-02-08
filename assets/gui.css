@@ -1,0 +1,108 @@
+body {
+  background-color: #181027;
+  color: white;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.landingimg {
+  width: 70%;
+}
+
+.hlanding {
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+.navbar {
+  padding-top: 5px;
+  display: flex;
+  /* padding-left: 20px; */
+}
+
+.navbar li {
+  list-style: none;
+  padding: 15px 0px 15px 40px;
+}
+
+.navbar li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+
+.btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 5px 0px;
+  padding: 7px 40px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  opacity: 1;
+  border-radius: 20px;
+
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.foot {
+  background-color: rgb(69, 7, 86);
+  display: flex;
+  justify-content: space-around;
+}
+
+.footchild {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.footgrandchild {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btnhollow {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 5px 0px;
+  padding: 7px 40px;
+  border: 2px solid orangered;
+  background-color: transparent;
+  color: white;
+  /* opacity: 1; */
+  border-radius: 20px;
+}
+
+.btnhollow:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .foot {
+    flex-direction: column;
+  }
+
+  .footchild {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .grid-2 {
+    margin: 0 auto;
+    float: none;
+  }
+
+  .container {
+    justify-content: center;
+  }
+}
